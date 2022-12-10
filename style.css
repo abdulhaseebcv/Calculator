@@ -1,0 +1,54 @@
+.calc-screen {
+    height: 473px;
+    width: 400px;
+    background:#03071e;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+#outputfield {
+    height: 50px;
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 35px;
+    pointer-events: none;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    margin-left: 37px;
+    margin-top: 25px;
+    border-color: grey;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border: transparent;
+}
+
+#btnclear {
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    margin-left: 37px;
+    margin-top: 25px;
+    border-color: grey;
+    border-radius: 10px;
+    font-size: 15px;
+    border: transparent;
+}
+
+.btn:hover {
+    border: 4px solid #fff;
+}
+
+#btnclear:hover {
+    border: 4px solid #fff;
+}
