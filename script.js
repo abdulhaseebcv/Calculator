@@ -15,7 +15,7 @@ function cleardisplay() {
 }
 
 function deletebtn() {
-    screen.value = screen.value.slice(0,-1)
+    screen.value = screen.value.slice(0, -1)
 }
 
 
