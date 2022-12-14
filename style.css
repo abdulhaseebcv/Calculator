@@ -3,6 +3,7 @@
     width: 400px;
     background: #03071e;
     margin: auto;
+    padding: auto;
     margin-top: 40px;
     border-radius: 5px;
     border: transparent;
@@ -19,6 +20,7 @@
     border-radius: 5px;
     border: transparent;
 }
+
 
 .btn {
     height: 50px;
@@ -51,4 +53,19 @@
 
 #btnclear:hover {
     border: 4px solid #fff;
+}
+
+@media (max-width:767px) {
+    .calc-screen{
+        width: 360px;
+        height: 470px;
+    }
+
+    .btn{
+        margin-left: 30px;
+    }
+
+    #btnclear{
+        margin-left: 30px;
+    }
 }
